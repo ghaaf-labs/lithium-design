@@ -1,0 +1,24 @@
+{
+  "name": "lithium-design",
+  "version": "0.0.1",
+  "description": "lithium is component library for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Malivix/lithium.git"
+  },
+  "keywords": [
+    "react",
+    "css",
+    "sass"
+  ],
+  "author": "Malivix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Malivix/lithium/issues"
+  },
+  "homepage": "https://github.com/Malivix/lithium#readme"
+}
