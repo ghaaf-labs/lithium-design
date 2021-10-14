@@ -1,0 +1,17 @@
+{
+    "extends": "@shopify/typescript-configs/library",
+    "compilerOptions": {
+      "jsx": "react",
+      "baseUrl": "./src",
+      "rootDir": "./",
+      "noEmit": false,
+      "emitDeclarationOnly": true,
+      "incremental": true,
+      "outDir": "build/ts/latest",
+      "declarationMap": false,
+      "isolatedModules": true,
+      "importsNotUsedAsValues": "error",
+      "strictFunctionTypes": false
+    },
+    "include": ["./config/typescript", "./src", "./tests", "./playground"]
+  }
