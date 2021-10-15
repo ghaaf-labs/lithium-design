@@ -1,7 +1,0 @@
-import './main.css';
-
-var styles = {
-  "test": "Lithium-main--test_yj3nj"
-};
-
-export { styles as default };

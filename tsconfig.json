@@ -1,17 +1,23 @@
 {
-    "extends": "@shopify/typescript-configs/library",
-    "compilerOptions": {
-      "jsx": "react",
-      "baseUrl": "./src",
-      "rootDir": "./",
-      "noEmit": false,
-      "emitDeclarationOnly": true,
-      "incremental": true,
-      "outDir": "build/ts/latest",
-      "declarationMap": false,
-      "isolatedModules": true,
-      "importsNotUsedAsValues": "error",
-      "strictFunctionTypes": false
-    },
-    "include": ["./config/typescript", "./src", "./tests", "./playground"]
-  }
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "lib": ["dom", "es5"],
+    "module": "esNext",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "outDir": "./dist",
+    "pretty": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es5"
+  },
+  "exclude": ["node_modules",],
+  "include": ["./src"]
+}

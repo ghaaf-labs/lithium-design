@@ -1,0 +1,26 @@
+{
+  "name": "lithium-design",
+  "version": "0.0.8",
+  "description": "lithium is component library for react",
+  "license": "MIT",
+  "private": false,
+  "author": "Mahdi Zarrintareh",
+  "bugs": {
+    "url": "https://github.com/Malivix/lithium/issues"
+  },
+  "homepage": "https://github.com/Malivix/lithium#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Malivix/lithium.git"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "classnames": "^2.2.6"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  }
+}
