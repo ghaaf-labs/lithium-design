@@ -1,2 +1,2 @@
-Button
+Button /n
 Checkbox
