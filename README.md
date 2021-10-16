@@ -3,7 +3,7 @@ Button\
 Avatar\
 Image\
 Divider\
-Typography(H1...H6/P)\ 
+Typography(H1...H6/P) \ 
 Link\
 Checkbox\ 
 Input\ 
