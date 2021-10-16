@@ -1,34 +1,33 @@
-
-Button\
-Avatar\
-Image\
-Divider\
-Typography(H1...H6/P)\ 
-Link\
-Checkbox\ 
-Input\ 
-Radio\
-Cascader[Select]\
-Accordion[Collapse]\
-Badge\
-Alert\
-Notification\
-Toast\
-Tab\
-Modal\
-Progress\
-Tag\
-Timeline\
-DatePicker\
-Table\
-Skeleton\
-Loading\
-Spiner\
-Stepper\
-Pagination\
-Tooltip\
-Layout\
-Grid\
-Conatiner\
-Slider\
-Carousel
+1. Button 
+2. Avatar 
+3. Image 
+4. Divider 
+5. Typography(H1...H6/P) 
+6. Link 
+7. Checkbox
+8. Input 
+9. Radio 
+10. Cascader[Select] 
+11. Accordion[Collapse] 
+12. Badge 
+13. Alert
+14. Notification 
+15. Toast 
+16. Tab 
+17. Modal 
+18. Progress 
+19. Tag 
+20. Timeline 
+21. DatePicker 
+22. Table
+23. Skeleton
+24. Loading 
+25. Spiner 
+26. Stepper
+27. Pagination
+28. Tooltip 
+29. Layout 
+30. Grid
+31. Conatiner 
+32. Slider 
+33. Carousel
