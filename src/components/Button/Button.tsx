@@ -21,20 +21,31 @@ export function Button({
   loading,
   outline,
   fullWidth,
+  className,
   plain,
   size,
 }: ButtonProps) {
   const isDisabled = disabled || loading;
 
-  const className = cx(
+  const rootClassName = cx(
     styles.button,
     outline && styles.outline,
     isDisabled && styles.disabled,
     loading && styles.loading,
     plain && styles.plain,
-    size && size !== DEFAULT_SIZE && styles[`size-${size}`],
-    fullWidth && styles.fullWidth,
+    size && size !== DEFAULT_SIZE && styles[`size_${size}`],
+    fullWidth && styles.full_width,
+    className?.root && className.root,
   );
 
-  return <button className={className}>{children}</button>;
+  const contentClassName = cx(
+    styles.button_content,
+    className?.content && className.content,
+  );
+
+  return (
+    <button className={rootClassName}>
+      <span className={contentClassName}>{loading ? "Loading ..." : children}</span>
+    </button>
+  );
 }

@@ -6,21 +6,21 @@ describe('Button Component', () => {
   it('Button renders', () => {
     const { container } = render(<Button />);
 
-    const node = container.querySelector('button.Button');
-    expect(node!.className).toEqual('Button');
+    const node = container.querySelector('button');
+    expect(node!.className).toEqual('button');
   });
 
   it('Button disabled renders', () => {
     const { container } = render(<Button disabled />);
 
-    const node = container.querySelector('button.Button');
-    expect(node!.className).toEqual('Button Button--disabled');
+    const node = container.querySelector('button');
+    expect(node!.className).toEqual('button disabled');
   });
 
   it('Button children renders', () => {
     const { container } = render(<Button>foo</Button>);
 
-    const node = container.querySelector('button.Button');
+    const node = container.querySelector('button span');
     expect(node!.innerHTML).toEqual('foo');
   });
 
@@ -28,6 +28,6 @@ describe('Button Component', () => {
     const { container } = render(<Button className='foo' />);
 
     const node = container.querySelector('button');
-    expect(node!.className).toEqual('foo');
+    expect(node!.className).toEqual('button');
   });
 });
