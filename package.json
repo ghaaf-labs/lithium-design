@@ -16,6 +16,7 @@
   "scripts": {
     "build": "yarn clean; rollup -c",
     "clean": "rimraf dist",
+    "storybook": "start-storybook -p 9001 -c .storybook",
     "publish": "npx semantic-release --no-ci"
   },
   "main": "dist/index.js",

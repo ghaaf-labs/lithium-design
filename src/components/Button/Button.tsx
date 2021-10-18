@@ -6,8 +6,8 @@ const DEFAULT_SIZE = 'medium';
 
 export interface ButtonProps {
   children?: string | string[];
-  disabled: boolean;
-  loading: boolean;
+  disabled?: boolean;
+  loading?: boolean;
   outline?: boolean;
   fullWidth?: boolean;
   plain?: boolean;
