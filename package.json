@@ -16,6 +16,9 @@
   "scripts": {
     "build": "yarn clean; rollup -c",
     "clean": "rimraf dist",
+    "test": "jest --maxWorkers=2",
+    "test:watch": "yarn test --watch",
+    "test:coverage": "jest --coverage --colors --maxWorkers=2",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "publish": "npx semantic-release --no-ci"
   },

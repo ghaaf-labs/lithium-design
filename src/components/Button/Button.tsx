@@ -5,6 +5,7 @@ import styles from './Button.module.scss';
 const DEFAULT_SIZE = 'medium';
 
 export interface ButtonProps {
+  className?: any;
   children?: string | string[];
   disabled?: boolean;
   loading?: boolean;
