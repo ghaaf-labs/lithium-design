@@ -1,0 +1,23 @@
+.button_group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: -0.8rem;
+  margin-left: -0.8rem;
+}
+
+.item {
+  margin-top: 0.8rem;
+  margin-left: 0.8rem;
+}
+
+.segmented {
+  position: relative;
+  z-index: 10;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.full_width {
+  flex: 1 1 auto;
+}
